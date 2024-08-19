@@ -1,0 +1,221 @@
+* {
+  color: white;
+}
+
+
+body {
+  background-color: #1b1f24 !important;
+}
+
+.navbar-brand {
+
+  color: rgb(255 255 255) !important;
+  font-size: xx-large !important;
+  font-weight: 700;
+}
+
+.nav-link {
+  color: rgb(255 255 255) !important;
+  font-size: x-large !important;
+  font-weight: 700;
+
+
+}
+
+.nav-link:hover {
+  padding-top: 36px;
+  transition: 0.5s;
+
+}
+
+.navbar-nav {
+  --bs-nav-link-padding-y: 2.5rem !important;
+  gap: 35px !important;
+
+}
+
+ 
+/* 
+.landing-page {
+
+  background-image: url(./img/rajan.png);
+  height: fit-content;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+} */
+
+.line2.my-2 {
+
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+.lin3 {
+
+  font-size: large;
+}
+
+
+hr.my-5.line4 {
+  color: #525c6c;
+}
+
+i {
+  margin-right: 20px;
+  font-size: xx-large;
+}
+
+.line5 {
+  font-size: xxx-large;
+  font-weight: 700;
+
+}
+
+.icon-color {
+  color: #075fe4;
+}
+
+.job {
+
+  display: flex;
+  justify-content: space-around;
+  margin-top: 80px;
+}
+
+.year {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.year1 {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.year2 {
+  font-size: large;
+  font-weight: 600;
+}
+
+.line6.my-5 {
+
+  margin-left: 95px;
+}
+
+.company {
+
+  font-size: larger;
+  font-weight: 700;
+}
+
+.about-color {
+  background-color: rgba(45, 52, 63, .4);
+  padding: 51px 0 52px 0;
+  margin: 51px 0 52px 0;
+}
+
+.line7 {
+  height: 7px;
+  width: 50px;
+  background: white;
+}
+
+.circel {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 70px;
+  width: 70px;
+  background-color: #075fe4;
+  border-radius: 50px;
+}
+
+.fa-brands,
+.fab {
+  font-weight: 400;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.box {
+  padding: 50px;
+  background-color: #2d343f;
+  border-radius: 28px;
+}
+
+.line.my-5 {
+  height: 10px;
+  width: 200px;
+  background: white;
+}
+
+.contactus {
+  height: 100px;
+  width: 600px;
+  background-color: rgb(34 40 47);
+  border: none;
+  border-bottom: 1px solid;
+  font-size: xx-large;
+}
+
+::placeholder {
+  font-size: xx-large;
+  color: white;
+  font-weight: 700;
+}
+
+input.contactus:focus {
+  outline: none;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+.line8 {
+  height: 2px;
+  width: 250px;
+  background: white;
+}
+
+.circel1 {
+  background: #242c37;
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+img.logo {
+  height: 150px;
+  margin: 0px 0px 0px 21px;
+}
+
+.foot1 {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.icon.my-4 {
+  display: flex;
+  gap: 31px;
+}
+
+.foot3 {
+  display: flex;
+}
+
+.foot3 {
+  display: flex;
+  gap: 90px;
+}
+
+img.project.\32 {
+  width: 550px;
+  border-radius: 25px;
+}
