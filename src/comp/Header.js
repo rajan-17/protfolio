@@ -6,8 +6,33 @@ const Header = () => {
 
   return (
     <div>
-      <nav>
-
+      <nav className="d-flex justify-content-center gap-3">
+          <div className="navbar">
+         
+          <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Navigation
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"/></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        
+          </div>
+          <div className="navbar">
+         
+          <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Social
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"/></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        
+          </div>
       </nav>
       <div className="landing-page">
         <div className="main-content">
