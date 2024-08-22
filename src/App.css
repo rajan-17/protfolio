@@ -5,66 +5,20 @@
 
 body {
   background-color: #1b1f24 !important;
-}
-
-.navbar-brand {
-
-  color: rgb(255 255 255) !important;
-  font-size: xx-large !important;
-  font-weight: 700;
-}
-
-.nav-link {
-  color: rgb(255 255 255) !important;
-  font-size: x-large !important;
-  font-weight: 700;
-
 
 }
-
-.nav-link:hover {
-  padding-top: 36px;
-  transition: 0.5s;
-
-}
-
-.navbar-nav {
-  --bs-nav-link-padding-y: 2.5rem !important;
-  gap: 35px !important;
-
-}
-
- 
-
 .landing-page {
-
-  background-image: url(./img/rajan.png);
-  height: fit-content;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.line2.my-2 {
-
-  font-size: 5rem;
-  font-weight: 700;
-}
-
-.lin3 {
-
-  font-size: large;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
-hr.my-5.line4 {
-  color: #525c6c;
-}
 
-i {
-  margin-right: 20px;
-  font-size: xx-large;
-}
+
+
 
 .line5 {
   font-size: xxx-large;
