@@ -1,7 +1,7 @@
 import React from 'react'
 
 const AboutMe = () => {
-  return (<div className="about-color">
+  return (<div className="about-color ">
 
     <div className='container my-5'>
         
