@@ -1,7 +1,13 @@
 
 import React from "react";
+import { useTypewriter,Cursor } from 'react-simple-typewriter'
 const Header = () => {
-
+  const [text] = useTypewriter({
+    words: ['React/Node.js developer'],
+    loop:1,
+    typeSpeed:100,
+    delaySpeed:1500
+  })
   return (
     <div>
 
@@ -42,8 +48,13 @@ const Header = () => {
       </nav>
       <div className="landing-page">
         <div className="main-content">
-          <h6 className=" text-center center">Hello i'm Rajan. passionate  Web developer</h6>
-          <h1>React/Node.js developer</h1>
+          <h6 className=" text-center center">Hello i'm  <span style={{color:'red'}}>Rajan</span>. passionate  Web developer</h6>
+          <h1 style={{fontWeight:'bold',color:'#075fe4;'}}>
+            {text}
+            <span style={{color:'red'}}>
+            <Cursor/>
+            </span>
+          </h1>
           <div className="d-flex justify-content-center gap-2 my-4">
             <button type="download" className="btn btn-light btn-sm">Download CV</button>
             <button type="button" className="btn btn-secondary btn-sm">Contact Me</button>

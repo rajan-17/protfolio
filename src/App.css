@@ -1,5 +1,8 @@
 * {
   color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 
@@ -30,9 +33,9 @@ body {
   background: #14171a;
   width: 60%;
   height: 60px;
-  display: block;
   position: fixed;
   border-radius: 50px;
+  border: 1px solid;
 }
 
 
