@@ -15,9 +15,25 @@ body {
   align-items: center;
 }
 
+.dropdown-item:focus, .dropdown-item:hover {
+  /* color: var(--bs-dropdown-link-hover-color); */
+  background-color: #1b1f24 !important;
+}
 
 
+.dropdown-menu {
+  
+  --bs-dropdown-min-width: 8rem !important;
+}
 
+.nav-main {
+  background: #14171a;
+  width: 60%;
+  height: 60px;
+  display: block;
+  position: fixed;
+  border-radius: 50px;
+}
 
 
 .line5 {
