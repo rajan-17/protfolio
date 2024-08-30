@@ -197,3 +197,8 @@ img.project.\32 {
   background-color:  #1b1f24;
   width: 100%;
 }
+.canvas1{
+  height: 100vh !important;
+  width: 100% !important;
+
+}

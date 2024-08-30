@@ -45,6 +45,7 @@ function App() {
         <AboutMe />
         <MySkill />
         <Portfolio />
+     
         <ContectUs />
         <Footer />
       </div>
