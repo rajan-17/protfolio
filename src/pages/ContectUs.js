@@ -15,7 +15,7 @@ const ContectUs = () => {
               <form action="">
                 <input type="text" className='contactus my-3' placeholder='Enter your name' />
                 <input type="text" className='contactus my-3' placeholder='Your Email address' />
-               <textarea name=""  className='contactus my-3' placeholder='Describe your project' id=""></textarea>
+               <textarea name=""  className='contactus my-3' placeholder='Describe your project' style={{height:200}}></textarea>
               </form>
               <div className="my-5">
 

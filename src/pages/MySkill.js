@@ -5,6 +5,7 @@ import 'owl.carousel/dist/assets/owl.theme.default.css';
 
 
 const MySkill = () => {
+ 
     return (
         <div className='container '>
             <h4><span className='icon-color'>/</span>MY SkILLS</h4>
@@ -14,8 +15,18 @@ const MySkill = () => {
             <div className="my-5">
             </div>
 
-                <OwlCarousel className='owl-theme' loop margin={10} nav>
-                    <div className='item col-sm-12'>
+                <OwlCarousel className='owl-theme' loop margin={10} responsive= {
+                {
+                    '1':{
+                        items: 1
+                    },
+                    '1025': {
+                        items: 3
+                    }
+                }
+                
+            } nav>
+                    <div className='item col'>
                         <div className="box">
                             <div className="circel">
                                 <i className="fa-brands fa-html5"></i>
@@ -26,7 +37,7 @@ const MySkill = () => {
 
                         </div>
                     </div>
-                    <div className='item col-sm-12'>
+                    <div className='item col'>
                     <div className="box">
                             <div className="circel">
                             <i className="fa-brands fa-js"></i>
@@ -37,7 +48,7 @@ const MySkill = () => {
 
                         </div>
                     </div>
-                    <div className='item col-sm-12'>
+                    <div className='item col'>
                     <div className="box">
                             <div className="circel">
                             <i className="fa-brands fa-bootstrap"></i>
@@ -48,7 +59,7 @@ const MySkill = () => {
 
                         </div>
                     </div>
-                    <div className='item col-sm-12'>
+                    <div className='item col'>
                     <div className="box">
                             <div className="circel">
                             <i className="fa-brands fa-php"></i>
@@ -59,7 +70,7 @@ const MySkill = () => {
 
                         </div>
                     </div>
-                    <div className='item col-sm-12'>
+                    <div className='item col'>
                     <div className="box">
                             <div className="circel">
                             <i className="fa-brands fa-laravel"></i>
@@ -70,7 +81,7 @@ const MySkill = () => {
 
                         </div>
                     </div>
-                    <div className='item col-sm-12'>
+                    <div className='item col'>
                     <div className="box">
                             <div className="circel">
                             <i className="fa-solid fa-c"></i>
@@ -81,7 +92,7 @@ const MySkill = () => {
 
                         </div>
                     </div>
-                    <div className='item col-sm-12'>
+                    <div className='item col'>
                     <div className="box">
                             <div className="circel">
                             <i className="fa-brands fa-react"></i>
@@ -92,7 +103,7 @@ const MySkill = () => {
 
                         </div>
                     </div>
-                    <div className='item col-sm-12'>
+                    <div className='item col'>
                     <div className="box">
                             <div className="circel">
                             <i className="fa-brands fa-node-js"></i>
@@ -103,7 +114,7 @@ const MySkill = () => {
 
                         </div>
                     </div>
-                    <div className='item col-sm-12'>
+                    <div className='item col'>
                     <div className="box">
                             <div className="circel">
                             <i className="fa-solid fa-e"></i>
@@ -114,7 +125,7 @@ const MySkill = () => {
 
                         </div>
                     </div>
-                    <div className='item col-sm-12'>
+                    <div className='item col'>
                     <div className="box">
                             <div className="circel">
                             <i className="fa-solid fa-t"></i>

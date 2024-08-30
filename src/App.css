@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+::selection {
+  color: rgb(255, 0, 0);
+
+}
 
 body {
   background-color: #1b1f24 !important;
@@ -40,7 +44,7 @@ body {
 
 
 .line5 {
-  font-size: xxx-large;
+  font-size: xx-large;
   font-weight: 700;
 
 }
@@ -74,7 +78,7 @@ body {
 
 .line6.my-5 {
 
-  margin-left: 95px;
+  margin-left: 50px;
 }
 
 .company {
@@ -126,7 +130,7 @@ body {
 
 .contactus {
   height: 100px;
-  width: 600px;
+  width: 100%;
   background-color: rgb(34 40 47);
   border: none;
   border-bottom: 1px solid;
@@ -185,7 +189,7 @@ img.logo {
 
 .foot3 {
   display: flex;
-  gap: 90px;
+  justify-content: space-between;
 }
 
 img.project.\32 {
@@ -200,5 +204,21 @@ img.project.\32 {
 .canvas1{
   height: 100vh !important;
   width: 100% !important;
+
+}
+
+/* resposnsive */
+
+@media only screen and (max-width: 600px) {
+
+  .line6.my-5 {
+    margin-left: 0px;
+}
+
+
+.company {
+  font-size: small;
+   font-weight: 500;
+}
 
 }

@@ -32,9 +32,9 @@ const AboutMe = () => {
       < hr className='my-5 line4' />
 
       <div className="row">
-        <div className="col-sm-4 company">Previously worked on : </div>
-        <div className="col-sm-4 company">Tv100 News</div>
-        <div className="col-sm-4 company">Code lipi Pvt Ltd </div>
+        <div className="col-sm-4 col company">Previously worked on : </div>
+        <div className="col-sm-4 col company">Tv100 News</div>
+        <div className="col-sm-4 col company">Code lipi Pvt Ltd </div>
       </div>
     </div>
   </div>
