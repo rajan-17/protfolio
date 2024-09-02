@@ -8,8 +8,19 @@ import ContectUs from './pages/ContectUs';
 import MySkill from './pages/MySkill';
 import Portfolio from './pages/Portfolio';
 import AnimatedCursor from 'react-animated-cursor';
-
+import 'aos/dist/aos.css'
+import Aos from "aos";
+import { useEffect } from 'react';
 function App() {
+  useEffect(()=>{
+    Aos.init({
+      offset: 250,
+      duration: 600,
+      easing: 'ease-in-sine',
+      delay: 100,
+    });
+  },[])
+
   return (
     <>
       <AnimatedCursor

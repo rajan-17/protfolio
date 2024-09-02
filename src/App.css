@@ -57,7 +57,7 @@ body {
 
   display: flex;
   justify-content: space-around;
-  margin-top: 80px;
+  margin-top: 20px;
 }
 
 .year {
@@ -207,6 +207,10 @@ img.project.\32 {
 
 }
 
+.project-img{
+  height: 500px;
+}
+
 /* resposnsive */
 
 @media only screen and (max-width: 600px) {
@@ -220,5 +224,6 @@ img.project.\32 {
   font-size: small;
    font-weight: 500;
 }
+
 
 }

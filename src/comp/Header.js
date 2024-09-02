@@ -1,7 +1,9 @@
 
-import React from "react";
+import React, { useEffect } from "react";
 import { useTypewriter,Cursor } from 'react-simple-typewriter'
 const Header = () => {
+ 
+
   const [text] = useTypewriter({
     words: ['React/Node.js developer'],
     loop:1,
@@ -48,7 +50,7 @@ const Header = () => {
       </nav>
       <div className="landing-page">
         <div className="main-content">
-          <h6 className=" text-center center">Hello i'm  <span style={{color:'red'}}>Rajan</span>. passionate  Web developer</h6>
+          <h6 className=" text-center center" >Hello i'm  <span style={{color:'red'}}>Rajan</span>. passionate  Web developer</h6>
           <h1 style={{fontWeight:'bold',color:'#075fe4;'}}>
             {text}
             <span style={{color:'red'}}>
