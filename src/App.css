@@ -210,6 +210,27 @@ img.project.\32 {
 .project-img{
   height: 500px;
 }
+img {
+  width: 100%;
+  height: 100%;
+
+}
+
+.slide-track {
+  width: 100%;
+  display: flex;
+  gap: 3em;
+  overflow: hidden;
+}
+
+
+
+.projects {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+}
+
 
 /* resposnsive */
 
