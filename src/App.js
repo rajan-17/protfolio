@@ -14,7 +14,7 @@ import { useEffect } from 'react';
 function App() {
   useEffect(()=>{
     Aos.init({
-      offset: 250,
+      offset: -500,
       duration: 600,
       easing: 'ease-in-sine',
       delay: 100,
