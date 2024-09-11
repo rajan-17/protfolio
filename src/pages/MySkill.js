@@ -7,7 +7,7 @@ import 'owl.carousel/dist/assets/owl.theme.default.css';
 const MySkill = () => {
  
     return (
-        <div className='container '>
+        <div id='skill' className='container '>
             <h4><span className='icon-color'>/</span>MY SkILLS</h4>
             <div className="line5">My extensive list of skills</div>
             <div className="row">

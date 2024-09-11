@@ -1,7 +1,7 @@
 import React from 'react'
 import project1 from '../img/1.jpeg'
 import project2 from '../img/2.jpeg'
-import project3 from '../img/3.jpeg'
+import project3 from '../img/3.png'
 import project4 from '../img/4.jpeg'
 import project5 from '../img/5.png'
 
@@ -12,60 +12,60 @@ import 'owl.carousel/dist/assets/owl.theme.default.css';
 
 
 const Portfolio = () => {
-  return (
-<>
-<div className="container">
+    return (
+        <section id='portfolio' className='my-5'>
+            <div className="container">
 
-<h4><span className='icon-color'>/</span>Projects</h4>
+                <h4><span className='icon-color'>/</span>Projects</h4>
 
-</div>
+            </div>
 
 
-<OwlCarousel className='owl-theme my-5' loop margin={4} dots= {false} nav={false}  autoplay autoplaySpeed={3000}  responsive= {
+            <OwlCarousel className='owl-theme my-5' loop margin={4} dots={false} nav={false} autoplay autoplaySpeed={3000} responsive={
                 {
-                    '1':{
+                    '1': {
                         items: 1
                     },
                     '1025': {
                         items: 3
                     }
                 }
-                
+
             } >
-                    <div className='item mx-2'>
-                     <div className="projects">
-
-                           <img src={project1} alt="" />
-                     </div>
-
-                        </div>
-                        
-                   
-                    <div className='item mx-2'>
+                <div className='item mx-2'>
                     <div className="projects">
-                           <img src={project2} alt="" />
 
-                  
+                        <img src={project1} alt="" />
                     </div>
-                    </div>
-                    <div className='item mx-2'>
+
+                </div>
+
+
+                <div className='item mx-2'>
                     <div className="projects">
-                           <img src={project3} alt="" />
+                        <img src={project2} alt="" />
 
-            
+
                     </div>
-                    </div>
-                    <div className='item mx-2'>
+                </div>
+                <div className='item mx-2'>
                     <div className="projects">
-                           <img src={project4} alt="" />
+                        <img src={project3} alt="" />
 
-                       
-                  
+
                     </div>
+                </div>
+                <div className='item mx-2'>
+                    <div className="projects">
+                        <img src={project4} alt="" />
+
+
+
                     </div>
-                </OwlCarousel>
-</>
-  )
+                </div>
+            </OwlCarousel>
+        </section>
+    )
 }
 
 export default Portfolio

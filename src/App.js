@@ -11,6 +11,7 @@ import AnimatedCursor from 'react-animated-cursor';
 import 'aos/dist/aos.css'
 import Aos from "aos";
 import { useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 function App() {
   useEffect(()=>{
     Aos.init({
@@ -22,14 +23,15 @@ function App() {
   },[])
 
   return (
-    <>
+    <>  <Router>
+
       <AnimatedCursor
 
-        innerSize={8}
-        outerSize={0}
-        color='225, 225, 225'
-        outerAlpha={0.2}
-        innerScale={1}
+innerSize={8}
+outerSize={0}
+color='225, 225, 225'
+outerAlpha={0.2}
+innerScale={1}
         outerScale={2}
         clickables={[
           'a',
@@ -43,14 +45,18 @@ function App() {
           'textarea',
           'button',
           '.link',
-
+          
         ]}
-      />
+        />
       <div className=" position-relative">
         <Canvas />
 
       </div>
-        <Header />
+      <Routes>
+      <Route exact path='/' element={  <Header />}> </Route>
+      
+
+      </Routes>
       <div className=" maia-B">
 
         <AboutMe />
@@ -61,6 +67,7 @@ function App() {
         <Footer />
       </div>
 
+        </Router>
 
     </>
 

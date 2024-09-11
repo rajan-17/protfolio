@@ -12,22 +12,22 @@ const Footer = () => {
                     </div>
                 </div>
             <div className="icon my-4">
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-linkedin"></i>
-                <i class="fa-brands fa-github"></i>
+                <i className="fa-brands fa-instagram"></i>
+                <i className="fa-brands fa-linkedin"></i>
+                <i className="fa-brands fa-github"></i>
               </div>    
             </div>
             <div className="col-sm-6">
-                <h1>Get in touch <span ><i class="fa-solid fa-arrow-right icon-color"></i></span></h1>
-                  <div className="foot3">
-                    <div className="foot4">
-                        <h5 className='my-4'>EMIAL Me</h5>
+                <h1>Get in touch <span ><i className="fa-solid fa-arrow-right icon-color"></i></span></h1>
+                  <div className="foot3 row">
+                    <div className="foot4 col-md-6 col-sm-12 ">
+                        <h5 className='my-4'>Email me</h5>
                         <h5 className='my-4'>Kumar1234.rk16@gmail.com</h5>
                         
                     </div>
-                    <div className="foot4">
-                        <h5 className='my-4'>CALL Me</h5>
-                        <h5 className='my-4'>7531039778</h5>
+                    <div className="  foot4 col-md-6 col-sm-12">
+                        <h5 className='my-4 '>Call me</h5>
+                        <h5 className='my-4'>+91 7531039778</h5>
                         
                     </div>
                     
