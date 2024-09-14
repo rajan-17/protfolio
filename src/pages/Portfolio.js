@@ -13,7 +13,7 @@ import { Link } from 'react-router-dom'
 
 const Portfolio = () => {
     return (
-        <section id='portfolio' className='my-5'>
+        <section id='portfolio' className='my-5 container'>
             <div className="container">
 
                 <h4><span className='icon-color'>/</span>Projects</h4>
@@ -29,7 +29,6 @@ const Portfolio = () => {
             autoplay
             autoplaySpeed={3000}
             autoplayHoverPause
-            autoWidth
             responsive={
                 {
                     '1': {

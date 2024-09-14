@@ -210,7 +210,7 @@ img.logo {
 .maia-B {
   position: absolute;
   background-color:  #1b1f24;
-  width: 100%;
+  width: 100vw;
 }
 .canvas1{
   height: 100vh !important;
@@ -236,7 +236,7 @@ img {
 
 .projects {
   height: 250px;
-  width: 380px !important;
+  width: 100%;
 
 }
 .projects img {

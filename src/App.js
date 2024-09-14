@@ -15,7 +15,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 function App() {
   useEffect(()=>{
     Aos.init({
-      offset: -500,
+      offset:200,
       duration: 600,
       easing: 'ease-in-sine',
       delay: 100,
@@ -57,7 +57,7 @@ innerScale={1}
       
 
       </Routes>
-      <div className=" maia-B">
+      <div className=" maia-B top-100">
 
         <AboutMe />
         <MySkill />
