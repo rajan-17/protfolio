@@ -3,11 +3,10 @@ import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 
-
 const MySkill = () => {
  
     return (
-        <div id='skill' className='container '>
+        <div id='skill' className='container py-5'>
             <h4><span className='icon-color'>/</span>MY SkILLS</h4>
             <div className="line5">My extensive list of skills</div>
             <div className="row">
@@ -15,7 +14,7 @@ const MySkill = () => {
             <div className="my-5">
             </div>
 
-                <OwlCarousel className='owl-theme' loop margin={10} responsive= {
+                <OwlCarousel className='owl-theme' loop margin={10} dots={false} responsive= {
                 {
                     '1':{
                         items: 1

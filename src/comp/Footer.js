@@ -2,7 +2,7 @@ import React from 'react'
 import img from '../img/rajan.png'
 const Footer = () => {
   return (
-    <div className='container'>
+    <div className='container py-3'>
         <div className="row">
             <div className="col-sm-6">
                 <div className="foot1">
