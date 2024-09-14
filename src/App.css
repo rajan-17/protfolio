@@ -206,10 +206,7 @@ img.logo {
   justify-content: space-between;
 }
 
-img.project.\32 {
-  width: 550px;
-  border-radius: 25px;
-}
+
 .maia-B {
   position: absolute;
   background-color:  #1b1f24;
@@ -237,14 +234,49 @@ img {
   overflow: hidden;
 }
 
-
-
 .projects {
   height: 250px;
+  width: 380px !important;
+
+}
+.projects img {
+  height: 100%;
   width: 100%;
-  object-fit: cover;
+  object-fit: fill;
 }
 
+
+
+.projects-hover{
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background:rgba(0,0,0 ,0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0;
+  transition: 0.6s;
+}
+.projects-hover:hover{
+    opacity: 1;
+}
+
+
+.visit {
+  background-color: #87CEEB;
+  height: 30px;
+  width: 17%;
+  text-align: center;
+}
+
+.visit a {
+ text-decoration: none;
+ color: #fff;
+}
 /* resposnsive */
 
 @media only screen and (max-width: 600px) {
